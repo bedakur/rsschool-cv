@@ -9,11 +9,7 @@
 
 ## About me
 
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTe
-
-xtTextTextTextTextTextTextTextvTextTextTextTextTextTextTextTextvTextTextTextTextTextTextTextTextTextTextTextvTextvvvTextTextvvvvvvv
-
-TextTextTextTextTextvvvvTextvvvvvvTextTextTextvvvvvvTextTextTextTextTextTextTextTextTextTextvTextTextTextv
+Curiosity and persererance are my lifestyle, so I strive to learn new things. The more difficult the task seems to me, the more it occupies my thoughts day and night until I find a solution to it. Programming has become an integral part of my life, and I will continue to develop in it. 
 
 ## Skills
 
