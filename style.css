@@ -8,6 +8,7 @@
     font-family: Roboto;
     src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
 }
+
 @font-face {
     font-family: Titillium Web;
     src: url("assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
@@ -32,7 +33,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--main-color);
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', Verdana, sans-serif;
     font-size: 16px;
 }
 
@@ -105,12 +106,17 @@ a:hover {
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .selected-text {
     color: var(--text-color);
+}
+
+#imagine {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #profile {
