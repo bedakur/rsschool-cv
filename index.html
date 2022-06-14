@@ -10,11 +10,106 @@
 </head>
 <body class="body">
     <header class="header">
-        <nav class="nav">
-            
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="imagine">
+                <img src="assets/avatar.png" alt="avatar">
+            </section>
+            <section class="section" id="profile">
+                <h1 class="section-title">Tatyana Egorova</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li>Discord:</li>
+                    <ul class="section-list">
+                        <li>TiA(@bedakur)</li>
+                    </ul>
+                    <li>Email:</li>
+                    <ul class="section-list">
+                        <li>tatyana.egrv@mail.ru</li>
+                    </ul>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Curiosity and persererance are my lifestyle, so I strive to learn new things. 
+                The more difficult the task seems to me, the more it occupies my thoughts day and night until I find a solution to it. 
+                Programming has become an integral part of my life, and I will continue to develop in it.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li>Python</li>
+                    <li>HTML5, CSS</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code>
+                    <pre>
+                    def likes(names):
+                        if names == []:
+                            return 'no one likes this'
+                        if len(names) == 1:
+                            return f'{names[0]} likes this' 
+                        if len(names) == 2:
+                            return f'{names[0]} and {names[1]} like this'
+                        if len(names) == 3:
+                            return f'{names[0]}, {names[1]} and {names[2]} like this'
+                        if len(names) > 3:
+                            return f'{names[0]}, {names[1]} and {len(names) - 2} others like this'
+                </pre>
+            </code>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li>Text will be added later</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p>CV: <a href="https://bedakur.github.io/rsschool-cv/">link on the project page</a></p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Text will be added later</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li>Russian</li>
+                    <li>English</li>
+                    <li>Japanese</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="https://github.com/bedakur">My github</a>
+                2022
+                <a href="https://rs.school/js/"><img src="assets/rs_school_js.svg"  alt="rss" width="121px" height="45px"></a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
