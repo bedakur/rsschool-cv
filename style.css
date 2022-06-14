@@ -1,1 +1,133 @@
-Any content will be added later
+:root {
+    --main-color: rgba(238, 238, 238, 0.548);
+    --side-color: rgba(115, 115, 115, 0.308);
+    --text-color: rgb(88, 0, 0);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Titillium Web;
+    src: url("assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Titillium Web', Verdana, sans-serif;
+    font-size: 16px;
+    background-color: var(--main-color);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--side-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.section {
+    padding: 0 40px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: rgb(230, 32, 32);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 5px;
+    background-color: black;
+    color: red;
+}
+
+.section-list {
+    list-style: none;
+}
+
+.footer {
+    background-color: var(--side-color);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.selected-text {
+    color: var(--text-color);
+}
+
+#imagine {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.increase-text {
+    font-size: 20px;
+}
+
+.background-color {
+    padding-left: 10px;
+    background-color: var(--side-color);
+}
+
+p {
+    padding-left: 25px;
+}
