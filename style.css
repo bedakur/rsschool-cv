@@ -32,9 +32,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--main-color);
     font-family: 'Titillium Web', Verdana, sans-serif;
     font-size: 16px;
+    background-color: var(--main-color);
 }
 
 .container {
@@ -119,11 +119,11 @@ a:hover {
     justify-content: flex-end;
 }
 
-#profile {
+.increase-text {
     font-size: 20px;
 }
 
-#code {
+.background-color {
     padding-left: 10px;
     background-color: var(--side-color);
 }
